@@ -1,16 +1,22 @@
-def sacar(saldo, extrato):
+def sacar(saldo, extrato,cont):
     saque = float(input("Digite o valor a sacar: R$"))
+    limite = 500.0
     if(saque < 0):
         print("Impossível sacar um valor negativo! Reiniciando operação")
+        return saldo, cont
+    elif(saque > 500):
+        print("Valor de saque acima do limite! Reiniciando operação")
+        return saldo, cont
     elif(saque == 0):
         print(f"Saque de R$0.00 realizado! Saldo atual: R${saldo}")
+        return saldo, cont+1
     elif(saque <= saldo):
         print(f"Valor sacado com sucesso! Saldo atual: R${saldo-saque}")
         extrato.append(["Saque", saque])
-        return saldo-saque
+        return saldo-saque, cont+1
     else:
         print("Valor de saque inválido. Reiniciando operação")
-        return saldo
+        return saldo, cont
 
 def depositar(saldo, extrato):
     deposito = float(input("Digite o valor a depositar: R$"))
@@ -49,6 +55,7 @@ def main():
     entrada = -1
     saldo = 0.0
     extrato = []
+    cont_saque = 0
     print("Seja bem vindo ao Santandesco! Seu saldo inicial é de R$0.00")
     while(entrada!=0):
         print("\n")
@@ -56,7 +63,10 @@ def main():
         entrada = int(input("Digite seu comando: "))
         
         if(entrada == 1):
-            saldo = sacar(saldo, extrato)
+            if(cont_saque>=3):
+                print("Operação bloqueada devido ao limite de saques diários!")
+            else:
+                saldo,cont_saque = sacar(saldo, extrato, cont_saque)
         elif(entrada == 2):
             saldo = depositar(saldo, extrato)
         elif(entrada == 3):
