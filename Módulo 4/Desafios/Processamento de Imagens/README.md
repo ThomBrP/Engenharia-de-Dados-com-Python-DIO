@@ -31,6 +31,9 @@ file1_name.my_function()
 ## Development
 [Tópico na DIO](https://web.dio.me/topics/criando-um-pacote-de-processamento-de-imagens-com-python-como-eu-resolvi?back=%2Ftrack%2Fengenharia-dados-python&order=undefined&page=1&search=&tab=forum&track_id=953ab0a9-6d55-4e00-ab7f-5ed855d288ca)
 
+## Final Link
+[Pypi](https://pypi.org/project/image-processing-ThomBrP/)
+
 ## Author
 Thom (https://github.com/ThomBrP)
 Original: Karina Kato (https://github.com/tiemi/)
