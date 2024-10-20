@@ -37,6 +37,7 @@ Aula a respeito dos tópicos:
 - Strings
 - Funções
 - **Desafio de projeto do sistema bancário (1ª Versão)**
+
 Nesta primeira versão do meu sistema, eu já tentei incluir uma interface mais detalhada para o sistema, apesar de trabalhar com texto ser complicado de visualizar. 
 
 ### Módulo 3 - Trabalhando com Coleções em Python
@@ -50,6 +51,7 @@ Aula a respeito dos tópicos:
 - **Otimizando o sistema bancário com funções**
 - **Desafio de código: Aperfeiçoar lógica e pensamento computacional**
 - **Aplicando técnicas de listas em python**
+
 No meu caso, eu já havia feito o sistema utilizando algumas funções, então eu decidi incrementá-lo utilizando listas e dicionários.
 No final, eu consegui desenvolver uma solução que reciclava o código anterior e modificava apenas alguns novos detalhes, como a organização dos dados em conjuntos. 
 
@@ -64,9 +66,12 @@ Aula a respeito dos seguintes tópicos:
 - **Modelando o sistema bancário em POO com Python**
 - **Criando um pacote de processamento de imagens com Python**
 - **Explorando técnicas de POO com Python**
+
 Neste desafio de código do sistema bancário, acabei por utilizar inteligência artificial. Eu implementei o desafio conforme dito no vídeo, porém a funcionalidade do código precisaria de muitas alterações, uma vez que toda a parte de acesso às variáveis seria modificado.
 Além disso, eu estava com vontade de aprender um pouco mais a respeito da utilização de Inteligências Artificiais para esse contexto. 
 O resultado foi um código muito funcional e já utilizando todo o sistema modelado anteriormente. Com uma sequencia complexa de menus e conexões entre as tabelas, validações e garantia de funcionalidade.
+
+Sobre o pacote de processamento de dados, fiz um [tópico no fórum da dio](https://web.dio.me/topics/criando-um-pacote-de-processamento-de-imagens-com-python-como-eu-resolvi?back=%2Ftrack%2Fengenharia-dados-python&order=undefined&page=1&search=&tab=forum&track_id=953ab0a9-6d55-4e00-ab7f-5ed855d288ca) detalhando o processo, visto que tive muita dificuldade e notei que a comunidade também estava tendo dificuldade com a atividade.
 
 ### Módulo 5 ao 9
 
